@@ -1,0 +1,162 @@
+/* 7. CSS-ի միջոցով նարը դնել տեքստի միջև և նկարը դնել ամբողջ էկրանով, տալ fixed էֆֆեկտ։ */
+/* .div{
+    width: 5000px;
+    height: 1000px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(/img/1660649965156093024.png);
+} */
+
+
+/* 8. Ունենք div դեղին գույնի, մկնիկը div - ի վրա բերելուց գույնը դառնա
+կապույտ, սեղմելուց դառնա կանաչ */
+/* .div{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+}
+div:hover{
+    background-color: blue;
+}
+div:active{
+    background-color: green;
+} */
+
+/* 9. Ունենք p, որի տեքստի չափը 15px, մկնիկը p - ի վրա բերելուց գույնը
+դառնա կապույտ, չափը դառնա 20px */
+
+/* .st{
+    font-size: 15px;
+}
+
+p:hover{
+    color: blue;
+    font-size: 20px;
+} */
+/*  13. . 4 նկար անիմացիայի օգնությամբ թերթել
+ div{
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url(/img/1660649965156093024.png);
+    animation: mymove 15s infinite ;
+}
+@keyframes mymove{
+    0% {
+        background-image: url(/img/1660649965156093024.png);
+        
+    }
+
+    25%{
+        background-image: url(/img/download.jpeg);
+    }
+    50%{
+        background-image: url(/img/rodnoiy-peiyzag-kartina-maslom-90x60.jpg);
+    }
+    
+    100%{
+        background-image: url(/img/tild3963-6430-4431-b661-336639373539__photo.jpg);
+    }
+} */
+/* 16. Ստեղծել button, որի background-color -ը սպիտակ է, իսկ border - ը այլ
+գույն, hover - ի ժամանակ նրա border - պետք է դառնա սպիտակ, իսկ background-color -ը եզրագծի գույն */
+/* .button{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(245, 180, 180);
+    border: 1px solid;
+    border-color: black;
+}
+button:hover{
+border-color: aliceblue;
+background-color: blueviolet;
+} */
+
+
+/* 17. Ունենք 2 div, իրաան բերելիրար կողք (display:flex) */
+/* div{
+     display: flex;
+    justify-content: center;
+     
+}
+.flex{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+}
+.flex2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: flex;
+} */
+
+ /* 18. Ստեղծել 4 div, այնպես անել, որ 2 մնա մի տողի վրա, 2 իջնի հաջորդ տող */
+ /* div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+ }
+.flex1{
+    width: 75vh;
+    height: 75vh;
+    background-color: red;
+}
+.flex2{
+    width: 75vh;
+    height: 75vh;
+    background-color: rgb(58, 221, 194);
+}
+.flex3{
+    width: 75vh;
+    height: 75vh;
+    background-color: rgb(207, 30, 113);
+}
+.flex4{
+    width: 75vh;
+    height: 75vh;
+    background-color: rgb(120, 10, 134);
+} */
+
+/* 19. Ստեղծել header, որը կպարունակի իր մեջ լոգո, վերնագիր և հղումներ և
+կտեղակայվի ձախ, մեջտեղ, աջ, իսկ ուղղահայաց դիրքում՝ մեջտեղ */
+
+/* header{
+    background-color: rgb(79, 167, 94);
+    
+}
+.imgg{
+    width: 100px;
+    height: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    margin: 0 10px;
+}
+h1{
+    color: rgb(14, 74, 129);
+}
+
+@media screen and  (max-width: 500px){
+    nav {
+        max-width: 100%;    
+        width: auto;
+        flex-direction: column;
+    }
+    
+} */
+/* 20. Տալ տեքստին չափ, գույն, տառատեսակ, հաստություն */
+/* .lorem{
+ font-size: 20px;
+ color: cadetblue;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-weight: 500;
+} */
